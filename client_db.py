@@ -77,6 +77,7 @@ class ClientDB:
                 raise ClientDBException("Bad connection state")
 
         else:
+
             self._con = sqlite3.connect(str(self._db_path))
             self._is_connected = True
 
