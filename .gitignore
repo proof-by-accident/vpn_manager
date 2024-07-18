@@ -1,0 +1,7 @@
+__pycache__
+*.log
+*.cfg
+bin/*
+lib/*
+
+
